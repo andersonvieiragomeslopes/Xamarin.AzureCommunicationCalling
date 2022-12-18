@@ -37,6 +37,7 @@ Windows support is official.
 | Start calls inside sdk                            | ✅             | ✅               |✅                |
 | Receive calls inside sdk                             | ✅          | ✅               | ✅             |
 | Add participants during calls                   | ✅         | ✅            | ✅           |
+| Remove participants during calls                   | :x:         | :x:            | :x:           |
 | call notification                             | :x:          | ✅               | ✅            |
 | answer calls with locked screen               | :construction:          | :hourglass:               | :x:         |
 | Switch layout between different call cases: only-local video view, one-on-one call view and group call with multiple participants                             | ✅             | ✅               |✅               |
