@@ -51,7 +51,7 @@ Windows support is official.
 | Show dominant speaker                         | ✅             | ✅                 |✅                 |
 | Turn off screen on calls      | :hourglass:           | :hourglass:                |:x:               |
 | Toggle audio output                       | ✅           | ✅               |:x:               |
-| Screensharing                 | :x:               |:hourglass:            |:x:
+| Screensharing                 | ✅               |✅           |:construction:
 | Background Voip API           | ✅  Services              |:construction:  Callkit           |:x:  VoipPhoneCall 
 ## Subtitle
 
