@@ -45,7 +45,7 @@ Windows support is official.
 | Show remote participants with microphone on/off   | ✅            | ✅               |✅               |
 | Turning local video stream from camera on/off | ✅           | ✅               |✅               |
 | switch between cameras                         | ✅            | ✅               |:x:                 |
-| View remote screen sharing                     | :x:            | :x:                |:x:                 |
+| View remote screen sharing                     | :construction:            | :construction:                |:construction:                 |
 | Request permission to use audio and/or video   | ✅             | ✅               |✅               |
 | Mute/unmute local microphone audio      | ✅           | ✅               |✅               |
 | Show dominant speaker                         | ✅             | ✅                 |✅                 |
