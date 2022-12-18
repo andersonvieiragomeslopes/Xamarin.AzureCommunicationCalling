@@ -48,9 +48,12 @@ Windows support is official.
 | View remote screen sharing                     | :construction:            | :construction:                |:construction:                 |
 | Request permission to use audio and/or video   | ✅             | ✅               |✅               |
 | Mute/unmute local microphone audio      | ✅           | ✅               |✅               |
+| Mute/unmute local speaker audio      | :x:           | :x:               |:x:               |
+| Call in Hold      | :x:           | :x:               |:x:               |
 | Show dominant speaker                         | ✅             | ✅                 |✅                 |
 | Turn off screen on calls      | :hourglass:           | :hourglass:                |:x:               |
 | Toggle audio output                       | ✅           | ✅               |:x:               |
+| Sharing Audio                | :x:              |:x:           |:x:
 | Screensharing                 | ✅               |✅           |:construction:
 | Background Voip API           | ✅  Services              |:construction:  Callkit           |:x:  VoipPhoneCall 
 ## Subtitle
