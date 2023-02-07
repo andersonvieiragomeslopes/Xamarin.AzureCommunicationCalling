@@ -62,6 +62,20 @@
 	  <ApplicationTitle>MauiACSTest</ApplicationTitle>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-android33.0|AnyCPU'">
+	  <AndroidStoreUncompressedFileExtensions></AndroidStoreUncompressedFileExtensions>
+	  <JavaMaximumHeapSize>4G</JavaMaximumHeapSize>
+	  <AndroidLinkTool>r8</AndroidLinkTool>
+	  <Debugger>Xamarin</Debugger>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-android33.0|AnyCPU'">
+	  <AndroidStoreUncompressedFileExtensions></AndroidStoreUncompressedFileExtensions>
+	  <JavaMaximumHeapSize>4G</JavaMaximumHeapSize>
+	  <AndroidLinkTool>r8</AndroidLinkTool>
+	  <Debugger>Xamarin</Debugger>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
@@ -113,6 +127,9 @@
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0-android33.0'">
+	  <PackageReference Include="GoogleGson">
+	    <Version>2.10.1.1</Version>
+	  </PackageReference>
 	  <PackageReference Include="Laerdal.Maui.AzureCommunicationCalling.android">
 	    <Version>2.5.1-beta.3.1</Version>
 	  </PackageReference>
@@ -121,6 +138,9 @@
 	  </PackageReference>
 	  <PackageReference Include="Laerdal.Maui.AzureCommunicationHelper.android">
 	    <Version>2.5.1-beta.3.2</Version>
+	  </PackageReference>
+	  <PackageReference Include="Laerdal.Maui.AzureCore.android">
+	    <Version>1.0.0-beta.12.2</Version>
 	  </PackageReference>
 	</ItemGroup>
 
